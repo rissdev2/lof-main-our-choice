@@ -1,0 +1,832 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind+Vadodara:wght@300;400;500;600;700&family=Jost:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,700;1,800;1,900&display=swap');
+
+
+ body {
+  margin: 0;
+  padding: 0;
+  background-image: url(../img/BG.png);
+  background-color: black !important;
+  background-repeat: no-repeat;
+  background-size: cover;
+} 
+
+.main-color{
+    color: #d8aaf8 !important;
+}
+@font-face {
+    font-family:Vegan;
+    src: url(../fonts/Vegan\ Style\ Personal\ Use.ttf);
+  }
+  @font-face {
+    font-family:Lovera;
+    src: url(../fonts/Lovera.otf);
+  }
+  a {
+    text-decoration: none !important;
+    color: #fff !important;
+  }
+  a:hover{
+    text-decoration: none !important;
+    color: #fff !important;
+  }
+
+/******* navbar css Start  ***********/
+.navbar{
+  background: linear-gradient(90.19deg, rgba(255, 216, 251, 0.1) 0%, rgba(231, 193, 255, 0.05) 100%) !important;
+mix-blend-mode: normal !important;
+backdrop-filter: blur(90px) !important;
+}
+
+.navbar-dark {
+  background-color: transparent !important;
+}
+.navbar-brand {
+    margin-right: 4rem !important;
+}
+.navbar-dark .navbar-nav .nav-link{
+    color: #fff !important;
+    font-weight: 600;
+font-size: 20px;
+font-family: 'Jost';
+}
+.navbar-dark .navbar-nav .nav-link:hover{
+    color: #d8aaf8 !important;
+  }
+.navbar-dark .navbar-nav .nav-link.active{
+  color: #d8aaf8 !important;
+}
+.icons {
+  
+    position: relative;
+    display: inline-block;
+  margin-left: 20px; 
+  }
+  .icons .img-top {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 99;
+  }
+  .icons:hover .img-top {
+    display: inline;
+  }
+/******* navbar css End  ***********/
+
+/*********** Hero section css Start  **********/
+.hero-sec{
+  align-items: center;
+  margin-top: 30px !important;
+}
+
+.hero-txt h1{
+    font-family: Vegan ;
+font-style: normal;
+font-weight: 400;
+font-size: 144px;
+color: #fff;
+}
+.hero-txt h3{
+  font-family: 'Jost';
+font-style: normal;
+font-weight: 700;
+font-size: 30px;
+color: #fff;
+line-height: 30px;
+margin: 80px 0px 30px 0px;
+}
+.hero-txt p{
+  font-family: 'Jost';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 40px;
+  color: #FFFFFF;
+}
+.hero-btn {
+  width: 140px;
+  height: 46px;
+cursor: pointer;
+background: transparent;
+border: 2px solid rgba(255, 255, 255, 0.103);
+border-radius: 0px;
+outline: none;
+transition: 1s ease-in-out;
+margin-top: 30px;   
+}
+svg {
+  position: relative;
+  left: 0;
+  top: 0;
+  fill: none;
+ 
+  stroke: #fff;
+  stroke-dasharray: 120 480;
+  stroke-dashoffset: 120;
+  transition: 1s ease-in-out;
+  margin-top: -9px;
+  margin-left: -8px;
+}
+.hero-btn:hover {
+  transition: 1s ease-in-out;
+  background: transparent;
+}
+
+.hero-btn:hover svg {
+  stroke-dashoffset: -480;
+}
+rect{
+  margin-top: -30px;
+}
+.hero-btn span {
+  color: white;
+  font-family: 'Jost' !important;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: 'allround-Font';
+  position: relative;
+  bottom: 40px;
+}
+/*********** Hero section css End  **********/
+/******** What LOf css Start  ***********/
+.whatlof-head h1{
+  font-family: Lovera;
+font-style: normal;
+font-weight: 400;
+font-size: 106px;
+color: #FFFFFF;
+}
+.whatlof-txt p{
+  font-family: 'Jost';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 60px;
+color: #FFFFFF;
+}
+/******** What LOf css End  ***********/
+
+/****** LOF Platform css Start  **********/
+.plt-txt h1{
+  font-family: Lovera ;
+font-style: normal;
+font-weight: 400;
+font-size: 106px;
+color: #FFFFFF;
+}
+.plt-txt p{
+  font-family: 'Jost';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 30px;
+color: #FFFFFF;
+}
+/********* 2 css *********/
+
+
+.swiper-slide {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 22px;
+  font-weight: bold;
+  color: #fff;
+}
+.feat-pts{
+  align-items: center;
+}
+.feat-txt h2{
+  font-family: Lovera ;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 50px;
+  color: #FFFFFF;
+  margin-left: 20px;
+}
+.feat-txt p{
+  font-family: 'Jost';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 60px;
+color: #FFFFFF;
+margin-left: 20px;
+}
+.swiper-button-prev{
+  left: auto !important;
+  right: 10px !important;
+  margin-top: 30px !important;
+}
+.swiper-button-next {
+  background-image: url(../img/arrow-up.png) !important;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  background-position: center;
+  
+}
+
+.swiper-button-next::after {
+  display: none;
+}
+
+.swiper-button-prev {
+  background-image: url(../img/arrow-down.png) !important;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  background-position: center;
+}
+
+.swiper-button-prev::after {
+  display: none;
+}
+.swiper-button-next, .swiper-button-prev {
+  top: 42% !important;
+}
+/****** LOF Platform css End  **********/
+/******** Dsashboard css Start  *******/
+.dash-txt h1{
+  font-family: Lovera;
+font-style: normal;
+font-weight: 400;
+font-size: 106px;
+color: #FFFFFF;
+}
+.dash-txt p{
+  font-family: 'Jost';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 26px;
+color: #FFFFFF;
+}
+.dash-btn {
+  width: 160px;
+    height: 53px;
+  cursor: pointer;
+  background: transparent;
+  border: 2px solid rgba(255, 255, 255, 0.103);
+  border-radius: 0px;
+  outline: none;
+  transition: 1s ease-in-out;
+
+}
+.dash-btn:hover {
+  transition: 1s ease-in-out;
+  background: transparent;
+}
+
+.dash-btn:hover svg {
+  stroke-dashoffset: -480;
+}
+
+.dash-btn span {
+  font-family: 'Jost';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  position: relative;
+  bottom: 40px;
+}
+/******** Dsashboard css End  *******/
+/***** Whitepaper css Start  ******/
+.white-sec{
+  align-items: center;
+}
+.white-txt h1{
+  font-family: Lovera;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 106px;
+  line-height: 120px;
+  color: #FFFFFF;
+}
+.white-txt p{
+  font-family: 'Jost';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 50px;
+color: #FFFFFF;
+}
+/***** Whitepaper css End  ******/
+/***** Team Vision css Start  ******/
+.team-txt h1{
+  font-family: Lovera;
+font-style: normal;
+font-weight: 400;
+font-size: 106px;
+color: #FFFFFF;
+margin-bottom: 30px;
+}
+.team-txt p{
+  font-family: 'Jost';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 50px;
+color: #FFFFFF;
+margin-bottom: 30px;
+}
+/***** Team Vision css End  ******/
+/***** Merch Store css Start  ******/
+.store-sec{
+  align-items: center;
+}
+.store-txt h1{
+  font-family: Lovera;
+font-style: normal;
+font-weight: 400;
+font-size: 90px;
+color: #FFFFFF;
+margin-bottom: 30px;
+}
+.store-txt p{
+  
+font-family: 'Jost';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 40px;
+color: #FFFFFF;
+margin-bottom: 30px;
+
+}
+/***** Merch store css End  ******/
+/***** Contact css Start  ******/
+
+.cntct-txt h1{
+  font-family: Lovera;
+font-style: normal;
+font-weight: 400;
+font-size: 70px;
+color: #FFFFFF;
+}
+.cntct-txt h4{
+  font-family: 'Hind Vadodara';
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 44px;
+color: #FFFFFF;
+}
+.cntct-txt p{
+  font-family: 'Hind Vadodara';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 44px;
+color: #FFFFFF;
+}
+.form-st input{
+background-color: transparent;
+  border-bottom: 1px solid;
+  width: 100%;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  outline: none !important;
+  font-family: 'jost';
+  padding: 5px;
+  margin-right: 20px;
+  color: #FFFFFF;
+  margin-bottom: 30px;
+
+}
+.form-st input:focus-visible {
+  outline: none !important;
+}
+
+/***** Contact css End  ******/
+/******* Footer css Start ********/
+.fot-sec{
+  background: #000000;
+  padding: 15px 0px;
+}
+.fot-sec ul{
+  list-style: none;
+  display: flex;
+}
+.fot-sec ul li{
+  font-family: 'Jost';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  color: #FFFFFF;
+  margin-right: 15px;
+}
+/******* Footer css End ********/
+/******* Tokonomics  css Start ********/
+.tokn-txt h1{
+  font-family: Vegan ;
+font-style: normal;
+font-weight: 400;
+font-size: 180px;
+color: #FFFFFF;
+}
+.tokn-txt h3{
+  font-family: 'Jost';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  color: #D8AAF8;
+  margin: 40px 0px;
+ 
+}
+.tokn-txt p{
+  font-family: 'Jost';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 40px;
+color: #FFFFFF;
+}
+.token-sub h1{
+  
+font-family: 'Jost';
+font-style: normal;
+font-weight: 700;
+font-size: 42px;
+color: #FFFFFF;
+}
+.token-box{
+  padding: 40px 80px 40px 0px !important;
+}
+.token-box h3{
+  font-family: 'Jost';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+color: #FFFFFF;
+}
+.token-box h4{
+  
+font-family: 'Jost';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+color: #FFFFFF;
+}
+.progress{
+  background: rgba(255, 255, 255, 0.1) !important;
+}
+.token-points h1{
+font-family: 'Jost';
+font-style: normal;
+font-weight: 700;
+font-size: 42px;
+color: #FFFFFF;
+
+}
+.token-points > ul > li {
+  list-style: none;
+font-family: 'Jost';
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+color: #FFFFFF;
+margin-top: 30px;
+}
+.bullet-1::before {
+  content: "\2022";
+  color: #8000D1;
+  font-weight: bold;
+  display: inline-block;
+  font-size:55px ;
+
+}
+.bullet-2::before {
+  content: "\2022";
+  color:#0088F0 ;
+  font-weight: bold;
+  display: inline-block;
+  font-size:55px ;
+
+}
+.bullet-3::before {
+  content: "\2022";
+  color: #FF00E5;
+  font-weight: bold;
+  display: inline-block;
+  font-size:55px ;
+
+}
+.bullet-4::before {
+  content: "\2022";
+  color: #0088F0;
+  font-weight: bold;
+  display: inline-block;
+  font-size:55px ;
+
+}
+.bullet-5::before {
+  content: "\2022";
+  color: #0009D1  ;
+  font-weight: bold;
+  display: inline-block;
+  font-size:55px ;
+}
+.bullet-6::before {
+  content: "\2022";
+  color: #8000D1;
+  font-weight: bold;
+  display: inline-block;
+  font-size:55px ;
+}
+.bullet-7::before {
+  content: "\2022";
+  color: #FF00E5;
+  font-weight: bold;
+  display: inline-block;
+  font-size:55px ;
+}
+.feat h1{
+  font-family: Lovera;
+font-style: normal;
+font-weight: 400;
+font-size: 70px;
+color: #FFFFFF;
+}
+.accordion-item{
+  background-color:transparent !important;
+box-shadow: none !important;
+border: none !important;
+}
+.accordion-button{
+  font-family: 'Jost' !important;
+font-style: normal !important;
+font-weight: 700 !important;
+font-size: 30px !important;
+  background-color: transparent !important;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #fff !important;
+box-shadow: none !important;
+color: #FFFFFF !important;
+}
+.accordion-button:focus{
+  color: #d8aaf8 !important;
+  box-shadow: none !important;   
+}
+.accordion-body{
+  color: #FFFFFF;
+font-family: 'jost' !important;
+font-style: normal !important;
+font-weight: 400 !important;
+font-size: 20px !important;
+line-height: 40px !important;
+}
+.accordion-button::after {
+  background-image: url(../img/arrow.png) !important;
+}
+
+/******* Tokonomics  css End ********/
+/****** Loader Css Start  ******/
+
+.btn {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 9999;
+  background: rgba(255, 255, 255, 0.014) !important;
+  backdrop-filter: blur(100px) !important;
+  box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.6);
+  padding: 25px 60px !important;
+  border: none!important;
+  outline: none;
+  font-family: "jost" !important;
+  color: #fff !important;
+  text-transform: uppercase;
+  font-size: 5rem;
+  cursor: pointer;
+}
+.btn-check:focus+.btn, .btn:focus {
+  box-shadow: none !important;
+}
+
+.text-container {
+  position: fixed;
+  width: 100% !important;
+  height: 100vh !important;
+  background: linear-gradient(180deg, #2E0640 0%, #0B0B38 100%);
+  z-index: 2222;
+}
+
+.text-wrapper {
+  position: fixed;
+  width: 100%;
+  z-index: 8888;
+  height: 100vh;
+  left: -50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.text {
+  width: 300%;
+  font-family: "Lora", serif;
+  font-size: 5vw;
+  color: #FFFFFF;
+  text-transform: uppercase;
+  opacity: 0.15;
+  white-space: nowrap;
+}
+
+.letter {
+  text-transform: uppercase;
+}
+/****** Loader Css End  ******/
+
+
+/************** media quires start ***********/
+@media (min-width: 1920px) {
+  .container {
+    max-width: 1720px !important;
+  }
+  .navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 1rem !important;
+    padding-left: 1rem !important;
+}
+}
+@media (max-width: 600px){
+  .hero-txt h1{
+    font-size: 60px;
+  }
+  .hero-txt h3 {
+    font-size: 18px;
+    line-height: 36px;
+    margin: 30px 0px 0px 0px;
+}
+.hero-txt p {
+  font-size: 14px;
+  line-height: 34px;
+}
+.hero-btn{
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+.whatlof-head h1 {
+font-size: 56px;
+}
+.whatlof-txt p {
+font-size: 16px;
+line-height: 36px;
+}
+.plt-txt h1 {
+  font-size: 56px;
+}
+.plt-txt p {
+  font-size: 16px;
+  line-height: 32px;
+}
+.feat-txt h2 {
+font-size: 34px;
+margin-left: 0px;
+}
+.feat-txt p {
+font-size: 18px;
+line-height: 45px;
+}
+.swiper-button-next{
+  right: 0px !important;
+}
+.swiper-button-prev {
+right: 0px !important;
+}
+.swiper-button-next, .swiper-button-prev {
+  top: 32% !important;
+}
+.dash-txt h1 {
+font-size: 56px;
+line-height: 70px;
+}
+.dash-txt p {
+font-size: 14px;
+line-height: 34px;
+}
+.white-txt h1 {
+font-size: 56px;
+line-height: 70px;
+}
+.white-txt p {
+font-size: 16px;
+line-height: 36px;
+margin: 20px 0px;
+}
+.team-txt h1{
+  font-size: 56px;
+  line-height: 70px;
+  margin-bottom: 20px;
+}
+.team-txt p{
+  font-size: 16px;
+  line-height: 36px;
+}
+.store-txt h1{
+  font-size: 56px;
+  line-height: 70px;
+  margin-bottom: 10px;
+}
+.store-txt p{
+  font-size: 16px;
+  line-height: 34px;
+  margin-bottom: 10px;
+}
+.cntct-txt h1{
+  font-size: 56px;
+  line-height: 70px;
+}
+.cntct-txt p{
+  font-size: 16px;
+  line-height: 34px;
+}
+.fot-sec ul li{
+  font-size: 11px;
+  margin-right: 5px;
+}
+.tokn-txt h1 {
+  font-size: 65px;
+}
+.tokn-txt h3{
+  font-size: 18px ;
+  line-height: 36px;
+  margin: 15px 0px;
+}
+.tokn-txt p {
+  font-size: 16px;
+  line-height: 36px;
+}
+.token-sub h1{
+  font-size: 26px;
+}
+.token-box {
+padding: 25px !important;
+}
+.token-box h3{
+  font-size: 20px;
+}
+.token-box h4{
+  font-size: 17px;
+}
+.token-points h1{
+  font-size: 26px;
+}
+.token-points > ul > li {
+  font-size: 18px;
+  margin-top: 20px;
+}
+.feat h1 {
+font-size: 66px;
+}
+.accordion-button {
+font-size: 18px !important;
+}
+.accordion-body{
+  font-size: 16px;
+  line-height: 36px;
+  padding: 5px !important;
+}
+  .br-hide{
+    display: none;
+  }
+
+}
+/************** media quires End ***********/
+
+
+
+
+
+.intro {
+
+ 
+ 
+  background-blend-mode: hard-light;
+  -webkit-animation: hue-rotate 3s linear infinite;
+          animation: hue-rotate 3s linear infinite;
+}
+@-webkit-keyframes hue-rotate {
+  from {
+    -moz-filter: hue-rotate(0);
+    -ms-filter: hue-rotate(0);
+    filter: hue-rotate(0);
+  }
+  to {
+    -moz-filter: hue-rotate(360deg);
+    -ms-filter: hue-rotate(360deg);
+    filter: hue-rotate(360deg);
+  }
+}
+@keyframes hue-rotate {
+  from {
+    -moz-filter: hue-rotate(0);
+    -ms-filter: hue-rotate(0);
+    filter: hue-rotate(0);
+  }
+  to {
+    -moz-filter: hue-rotate(360deg);
+    -ms-filter: hue-rotate(360deg);
+    filter: hue-rotate(360deg);
+  }
+}
